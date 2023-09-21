@@ -20,17 +20,17 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+          <li class="mb-2">
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-2 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          <li class="mb-2">
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+          <li class="mb-2">
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <li class="mb-2">
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-2 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           </li>
         </ul>
       </div>
@@ -38,9 +38,9 @@
   </nav>
   
       
-  <div class="flex h-screen" style="background-color: #9398BF;">
+  <div class="flex flex-col md:flex-row" style="background-color: #9398BF;">
    <!-- Sidebar -->
-   <div class="w-64 p-6">
+   <div class="w-full md:w-64 p-6">
      <!-- Sidebar Content -->
      <h1 class="text-black text-2xl font-semibold">Sidebar</h1>
      <ul class="mt-6">
@@ -131,21 +131,21 @@
      </ul>
    </div>
    <!-- Main Content -->
-   <div class="flex-1 flex flex-col overflow-hidden">
+   <div class="w-full flex-1 overflow-hidden">
      <!-- Page content goes here -->
      
      <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200 p-4">
        <!-- Main content goes here -->
        <h1 class="text-2xl font-semibold text-center">Main Content</h1>
        <!-- Add your page content here -->
-      <div class="paragraph">
-        My country’s name is Bangladesh. Bangladesh is a very small country huge population. It is a medium-developed country in South Asia. We have a very good and progressing economy. It has an area of 147,570 square kilometers. But it has a population of 164 million. That is huge than the area.
+      <div class="paragraph md:w-3/4 mx-auto">
+        My country’s name is Bangladesh. Bangladesh is a very small country with a huge population. It is a medium-developed country in South Asia. We have a very good and progressing economy. It has an area of 147,570 square kilometers. But it has a population of 164 million. That is huge compared to the area.
      </div>
-     <div class="paragraph">
-        But it is still a very beautiful and peaceful country. People of Bangladesh are so friendly with each other. This country has a glorious history of independence. We got independence from Pakistan in 1971 after nine mothers’ blood-shedding war. More than 3 million Bangladeshi sacrificed their life in that genocide.
+     <div class="paragraph md:w-3/4 mx-auto">
+        But it is still a very beautiful and peaceful country. People of Bangladesh are so friendly with each other. This country has a glorious history of independence. We got independence from Pakistan in 1971 after a nine-month blood-shedding war. More than 3 million Bangladeshis sacrificed their lives in that genocide.
      </div>
-     <div class="paragraph">
-        But still, we were able to get our independence. After independence, the newly born country faced lots of hard times and struggles. But it rises very well. Now Bangladesh is one of the best countries to live in South Asia. There are so many beautiful spots to see in this country. 
+     <div class="paragraph md:w-3/4 mx-auto">
+        But still, we were able to get our independence. After independence, the newly born country faced lots of hard times and struggles. But it rose very well. Now Bangladesh is one of the best countries to live in South Asia. There are so many beautiful spots to see in this country. 
      </div>
      </main>
    </div>
@@ -166,12 +166,5 @@
     });
   });
 </script>
- 
-    
- 
-
-<!-- Item B
-Item 2
-Item 3 -->
 </body>
 </html>
