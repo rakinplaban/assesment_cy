@@ -1,0 +1,1 @@
+Just clone the project and click on index.html file.
